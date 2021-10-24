@@ -2,10 +2,24 @@
   html {
     max-width: 100vw;
   }
+  .textmail-logo {
+    width: 300px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
   html {
     max-width: 100vw;
+  }
+  .textmail-logo {
+    width: 300px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
@@ -14,12 +28,26 @@
     margin: auto;
     margin-top: 5vh;
   }
+  .textmail-logo {
+    width: 400px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
   html {
     max-width: 60vw;
     margin: auto;
     margin-top: 5vh;
+  }
+  .textmail-logo {
+    width: 400px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
@@ -28,12 +56,26 @@
     margin: auto;
     margin-top: 5vh;
   }
+  .textmail-logo {
+    width: 500px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */
   html {
     max-width: 50vw;
     margin: auto;
     margin-top: 5vh;
+  }
+  .textmail-logo {
+    width: 500px;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -66,14 +108,6 @@ h1 {
 a {
   color: black;
   text-decoration: none;
-}
-
-.textmail-logo {
-  width: 500px;
-  position: fixed;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 footer {
